@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<a href="other.html?name=小明&age=20">other</a>
+
+<button>跳转</button>
+<script>
+    document.querySelector("button").onclick = function () {
+        location.href = "other.html?name=小明&age=20";
+    };
+</script>
+<script src="jquery-3.2.1.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
